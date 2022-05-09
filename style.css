@@ -22,26 +22,22 @@
 }
 .number-one {
     background-image: url(./images/1.png);
-    background-position: center;
 }
 .number-two {
     background-image: url(./images/2.png);
-    background-position: center;
 }
 .number-three {
     background-image: url(./images/3.png);
-    background-position: center;
 }
 .bomb {
     background-image: url(./images/bomb.png);
-    background-position: center;
 }
-.secret {
+.secret-case {
     border: 4px outset;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.secret-case {
+.secret{
     opacity: 0;
 }
