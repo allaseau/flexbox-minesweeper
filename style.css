@@ -32,12 +32,16 @@
 .bomb {
     background-image: url(./images/bomb.png);
 }
-.secret-case {
+.secret {
     border: 4px outset;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.secret{
+.secret img {
     opacity: 0;
+}
+.secret img:hover {
+    opacity: 1;
+    border: 4px inset;
 }
