@@ -1,0 +1,47 @@
+.box {
+    border-left: 10px ridge #CBCBCB;
+    border-top:10px ridge #CBCBCB;
+    border-right: 10px ridge #FDFEFD;
+    border-bottom: 10px ridge #FDFEFD;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CBCBCB;
+}
+.case {
+    height: 12.5%;
+    width: 12.5%;
+    border: 2px dotted black;
+    border-width: 0 2px 2px 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.number-one {
+    background-image: url(./images/1.png);
+    background-position: center;
+}
+.number-two {
+    background-image: url(./images/2.png);
+    background-position: center;
+}
+.number-three {
+    background-image: url(./images/3.png);
+    background-position: center;
+}
+.bomb {
+    background-image: url(./images/bomb.png);
+    background-position: center;
+}
+.secret {
+    border: 4px outset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secret-case {
+    opacity: 0;
+}
